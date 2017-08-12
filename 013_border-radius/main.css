@@ -1,0 +1,32 @@
+div {
+    width: 1000px;
+    height: 1000px;
+    border: 1px solid red;
+    border-radius: 100%;
+    background-image: url("../000_img/speakers.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+img {
+    border: 10px groove orangered;
+    border-radius: 100%;
+}
+
+.second {
+    border: 10px dashed orangered;
+}
+
+.third {
+    border: 10px dotted orangered;
+}
+
+.fourth {
+    border: 10px double orangered;
+}
+
+.fifth {
+    border: 10px groove orangered;
+}
+
+
