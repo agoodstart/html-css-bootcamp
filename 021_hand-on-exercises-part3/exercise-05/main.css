@@ -1,0 +1,10 @@
+p:first-line {
+    font-size: 20px;
+    font-weight: 900;
+    color: powderblue;
+}
+
+p:first-letter {
+    font-size: 40px;
+    color: darkslateblue;
+}
