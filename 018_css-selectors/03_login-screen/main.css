@@ -1,0 +1,10 @@
+body {
+    text-align: center;
+    box-sizing: border-box;
+}
+
+form {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 30%;
+}

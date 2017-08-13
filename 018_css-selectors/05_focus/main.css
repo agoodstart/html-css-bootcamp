@@ -1,0 +1,11 @@
+body {
+    text-align: center;
+}
+
+a {
+    font-size: 200px;
+}
+
+a:focus {
+    color: yellow;
+}

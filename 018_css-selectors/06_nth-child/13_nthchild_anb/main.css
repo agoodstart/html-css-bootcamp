@@ -1,0 +1,7 @@
+body {
+    font-size: 20px;
+}
+
+li:nth-child(10n+8) {
+    color: red;
+}

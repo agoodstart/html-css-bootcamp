@@ -1,0 +1,34 @@
+body {
+    font-size: 36px;
+    text-align: center;
+    border: solid green;
+    box-sizing: border-box;
+    display: block;
+}
+
+a:link {
+    color: darkred;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: rebeccapurple;
+}
+
+a:active {
+    color: yellow;
+}
+
+p {
+    border: dashed red;
+    box-sizing: border-box;
+    display: block;
+    width: 700px;
+}
+
+.p3:hover {
+    color: yellow;
+}

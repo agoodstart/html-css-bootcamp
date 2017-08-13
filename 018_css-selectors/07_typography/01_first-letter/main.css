@@ -1,0 +1,10 @@
+body {
+    font-size: 20px;
+}
+
+p:first-line {
+    font-size: 70px;
+    font-family: "Courier New";
+    color: red;
+    font-weight: bold;
+}
