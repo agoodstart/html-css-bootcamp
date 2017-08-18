@@ -1,0 +1,19 @@
+#threadlist .thread_row a.label { min-width:0;}
+a[class*='tag-'] > span {display:none;}
+
+a[class*='tag-'] {
+    padding-left: 75px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: transparent !important;
+    background-position: 0px center;
+    background-repeat: no-repeat;
+}
+
+a.tag-forumevent {background-image: url(http://i.imgur.com/DPBcbmO.png);}
+a.tag-discussion {background-image: url(http://i.imgur.com/OtUulM1.png);}
+a.tag-news {background-image: url(http://i.imgur.com/VSPWD1j.png);}
+a.tag-speculation {background-image url(http://i.imgur.com/rMXKoxw.png)}
+
+.t
