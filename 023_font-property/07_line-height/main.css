@@ -1,0 +1,9 @@
+h1 {
+    font-family: Arial;
+    font-size: 6rem;
+    font-weight: normal;
+    font-variant: small-caps;
+    line-height: 2;
+
+    border: 2px dashed hotpink;
+}
