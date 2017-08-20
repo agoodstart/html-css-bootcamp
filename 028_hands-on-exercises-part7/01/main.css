@@ -1,0 +1,24 @@
+div {
+    border: 3px solid black;
+    display: inline-block;
+    width: 150px;
+    height: 70px;
+    margin: 5px;
+    border-radius: 50px 50px 50px 50px
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}

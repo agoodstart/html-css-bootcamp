@@ -1,0 +1,12 @@
+html {
+    border: 3px solid black;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+    text-align: center;
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 10px;
+    letter-spacing: 3px;
+}

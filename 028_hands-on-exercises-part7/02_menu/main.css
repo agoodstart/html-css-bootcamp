@@ -1,0 +1,27 @@
+
+html {
+    font-size: 2rem;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+li {
+    border: 2px groove red;
+    border-radius: 50px;
+    display: inline-block;
+    margin: 5px;
+}
+
+li:hover {
+    background-color: lawngreen;
+}

@@ -1,0 +1,26 @@
+html {
+    border: 3px solid black;
+    margin: 0 auto;
+    padding: 10px;
+    display: block;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+    max-width: 550px;
+}
+
+p:first-letter {
+    font-family: 'Roboto Slab', sans-serif;
+    color: blue;
+    font-size: 3rem;
+}
+
+p:first-line {
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 2rem;
+    color: red;
+}
+
+p {
+    text-indent: 30px;
+}
