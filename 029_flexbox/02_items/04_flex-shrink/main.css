@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    align-items: center;
+}
+
+div {
+    font-family: 'Roboto', sans-serif;
+    background-color: orangered;
+    color: white;
+    height: 200px;
+    width: 100px;
+    margin: 1em;
+    font-size: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex1 {
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+.flex2 {
+    flex-shrink: 2;
+    flex-grow: 2;
+}
+
+.flex3 {
+    flex-shrink: 3;
+    flex-grow: 3;
+}

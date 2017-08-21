@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    height: auto;
+    flex-flow: column wrap;
+    border: 3px solid red;
+}
+
+div {
+    height: 100px;
+    width: 200px;
+    border: 2px solid red;
+    background-color: darkgrey;
+    margin: 1em;
+}
+
+.number01 {
+    order: 4;
+}
+
+.number02 {
+    order: 2;
+}
+
+.number03 {
+    order: 7
+}
+
+.number04 {
+    order: 9
+}
+
+.number05 {
+
+}
+
+.number06 {
+
+}
+
+.number07 {
+
+}
+
+.number08 {
+
+}
+
+.number09 {
+
+}
+
+.number10 {
+
+}
+

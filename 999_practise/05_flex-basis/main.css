@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    height: 200px;
+    border: 2px solid black;
+}
+
+.green {
+    flex-basis: 250px;
+    /*width: 250px;*/
+    height: 200px;
+    background-color: green;
+}
+
+.blue {
+    flex-basis: 250px;
+    /*width: 250px;*/
+    height: 200px;
+    background-color: blue;
+}
+
+.orange {
+    flex-basis: 250px;
+    /*width: 250px;*/
+    height: 200px;
+    background-color: orange;
+}
+
+.purple {
+    flex-basis: 250px;
+    /*width: 250px;*/
+    height: 200px;
+    background-color: purple;
+}
