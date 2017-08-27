@@ -1,0 +1,15 @@
+#relative {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: red;
+}
+
+#absolute {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: purple;
+    top: 40%;
+    right: 10px;
+}

@@ -1,0 +1,19 @@
+div {
+    border: 2px solid black;
+    background-color: darkgray;
+    text-align: center;
+    font-weight: 900;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 1em;
+}
+
+.after-box {
+    width: 100%;
+    height: 50px;
+    clear: both;
+}

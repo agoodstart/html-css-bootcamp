@@ -1,0 +1,9 @@
+div {
+    width: 600px;
+    height: 600px;
+    border: 20px ridge orange;
+    background-image: url("../../000_img/minispeakers.jpg");
+    background-repeat: no-repeat;
+    background-position: 200px 30px;
+    /*background-size: contain;*/
+}

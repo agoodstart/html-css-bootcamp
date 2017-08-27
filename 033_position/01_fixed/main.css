@@ -1,0 +1,23 @@
+body {
+    width: 100vh;
+}
+
+#number1 {
+    position: fixed;
+    display: block;
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: darkgray;
+    border: 3px solid black;
+    margin-left: 50%;
+}
+
+#number2 {
+    display: block;
+    height: 1500px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: darkgray;
+    border: 3px dashed red;
+}

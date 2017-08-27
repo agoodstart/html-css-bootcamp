@@ -1,0 +1,24 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 70%;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+
+div {
+    height: 200px;
+    width: 200px;
+    background-color: indianred;
+    border: 2px solid red;
+    margin: 0 auto;
+}
+
+#one {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}

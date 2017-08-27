@@ -1,0 +1,47 @@
+body, html, div {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.c1, .c2, .c3, .c4, .c5, .c6, .c7{
+    min-height: 100px;
+}
+
+div {
+    color: white;
+    width: 100%;
+}
+
+.c1 {
+    background-color: #011f4b;
+}
+
+.c2 {
+    background-color: #03396c;
+}
+
+.c3 {
+    background-color: #005b96;
+}
+
+.c4 {
+    background-color: #428ee3;
+}
+
+.c5 {
+    background-color: #6497b1;
+}
+
+.c6 {
+    background-color: #b3cde0;
+}
+
+.c7 {
+    background-color: #a2c3fb;
+}

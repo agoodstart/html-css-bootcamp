@@ -1,0 +1,42 @@
+html, body, div {
+    box-sizing: border-box;
+}
+
+body {
+    border: 5px solid red;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0;
+    margin: 0 auto;
+}
+
+div {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.c1 {
+    background-color: midnightblue;
+    height: 150px;
+}
+
+.c2 {
+    background-color: blue;
+    height: 150px;
+}
+
+.c3 {
+    background-color: blueviolet;
+    height: 150px;
+}
+
+.c4 {
+    background-color: deepskyblue;
+    height: 150px;
+}
+
+.c5 {
+    background-color: powderblue;
+    height: 150px;
+}

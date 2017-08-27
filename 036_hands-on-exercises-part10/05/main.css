@@ -1,0 +1,22 @@
+body {
+    margin: 30px auto;
+    max-width: 700px;
+}
+
+nav, main {
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+nav {
+    float: left;
+    padding-right: 5px;
+    width: 25%;
+}
+
+main {
+    float: right;
+    width: 75%;
+    height: auto;
+}
+

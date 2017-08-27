@@ -1,0 +1,11 @@
+div {
+    border: 10px solid black;
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url("../../000_img/minispeakers.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: border-box;
+}
