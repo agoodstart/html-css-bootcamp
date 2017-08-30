@@ -1,0 +1,80 @@
+body, section, main, html, h1, button, h2, p, section {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cantarell', sans-serif;
+    color: ghostwhite;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 2.8rem;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo, nav {
+    width: 15rem;
+    background-color: red;
+    height: 1.7rem;
+    margin: 0 1%;
+}
+
+
+#idx-atf {
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../000_img/background-photolaptop.jpg");
+    background-color: #757575;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.idx-center {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: 2px solid ghostwhite;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 2rem auto;
+    font-size: 1rem;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    font-weight: normal;
+    margin: 3.2rem;
+}
+
+button:hover {
+    background-color: ghostwhite;
+    color: black;
+}
+
+h2, h3 {
+    margin: 0;
+    font-size: 1.2rem;
+}

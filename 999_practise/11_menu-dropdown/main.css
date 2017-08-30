@@ -1,0 +1,197 @@
+body, section, main, html, h1, button, h2, p, section {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cantarell', sans-serif;
+    color: ghostwhite;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 2.8rem;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo, nav, a, .dropdown {
+    width: 26.2rem;
+    /*background-color: red;*/
+    height: 80%;
+    margin: 0 1%;
+}
+
+nav {
+    width: 30rem;
+}
+
+svg, a, .dropdown {
+    height: 100%;
+    width: 2.5rem;
+    fill: white;
+    padding: 0;
+    margin: 0;
+    /*border: 2px solid hotpink;*/
+}
+
+.right, a, .dropdown {
+    /*border: 2px solid hotpink;*/
+    width: 6rem;
+    border-radius: 20px;
+}
+
+.right:hover {
+    fill: #00bfff;
+    background-color: rgba(229,248,255,0.4);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 1.2rem;
+}
+
+#logo > a {
+    width: auto;
+    text-decoration: none;
+    color: currentColor;
+}
+
+#logo > a:hover {
+    color: #00bfff;
+}
+
+.left {
+    fill: currentColor;
+}
+
+#idx-atf {
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,191,255,0.15), rgba(0, 0, 0, 0)), url("../../000_img/background-photolaptop.jpg");
+    background-color: #757575;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.idx-center {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: 2px solid ghostwhite;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 2rem auto;
+    font-size: 1rem;
+    background-color: transparent;
+    text-transform: uppercase;
+    transition: font-size 2s, background-color 2s, color 2s;
+}
+
+h1 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    font-weight: normal;
+    margin: 3.2rem;
+}
+
+button:hover {
+    background-color: rgb(248, 248, 255);
+    color: black;
+    font-size: 4rem;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+h2 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+#mobile {
+    display: none;
+}
+
+a, .right {
+    transition: background-color 0.5s, color 0.5s, fill 0.5s;
+}
+
+.dropdown-content {
+    display: flex;
+    flex-flow: row wrap;
+    position: absolute;
+    justify-content: space-around;
+    align-items: center;
+    width: 28.2rem;
+    height: 200px;
+    top: 3.5rem;
+    left: 75%;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    z-index: 1;
+    transition: 2s;
+}
+
+.dropdown-content > a {
+    width: 100%;
+    height: 32.50%;
+    border-bottom: 2px solid ghostwhite;
+    border-radius: 0;
+    text-decoration: none;
+    color: ghostwhite;
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    text-align: center;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown-content > a:nth-child(3) {
+    border: none;
+    /*border-top: 1px solid ghostwhite;*/
+    border-radius: 0 0 10px 10px;
+}
+
+.dropdown-content > a:nth-child(1) {
+    border-radius: 10px 10px 0 0;
+}
+
+.dropdown-content > a:hover {
+    color: black;
+    background-color: ghostwhite;
+}
+
+.dropdown-content {
+    display: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    transition: 2s;
+}

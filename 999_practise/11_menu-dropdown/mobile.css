@@ -1,0 +1,88 @@
+header, #logo {
+    display: flex;
+    justify-content: center;
+}
+
+nav, svg {
+    display: none;
+}
+
+button {
+    font-weight: 600;
+    /*letter-spacing: 1px;*/
+    border: 1px solid ghostwhite;
+    border-radius: 5px;
+    margin: 5rem auto;
+    font-size: 1.3rem;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 1.8rem;
+    letter-spacing: 0;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    margin-top: 15%;
+}
+
+button:hover {
+    background-color: ghostwhite;
+    color: black;
+}
+
+h2, p {
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+.idx-center {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+
+section {
+    background-image: url("../../000_img/background-photo-mobile-devices.jpg");
+
+}
+
+#mobile {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 45px;
+}
+
+#mobile > a {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    border-radius: 0;
+    background-color: #00bfff;
+    border-top: 1px solid rgba(255,255,255,0.3);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    text-decoration: none;
+    color: ghostwhite;
+    font-size: 1.6rem;
+
+}
+
+#mobile > a:hover {
+    background-color: #00abe5;
+}
+
+.rightmob {
+    display: block;
+    padding: 0px 20px 0px 25px;
+}

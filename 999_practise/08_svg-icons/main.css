@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+svg {
+    width: 20rem;
+    height: 20rem;
+}
+
+#chromeleft {
+    fill: darkseagreen;
+}
+
+#chromeleft:hover {
+    fill: green;
+}
+
+#chrometop {
+    fill: indianred;
+}
+
+#chrometop:hover {
+    fill: red;
+}
+
+#chromemiddle {
+    fill: deepskyblue;
+}
+
+#chromemiddle:hover {
+    fill: blue;
+}
+
+#chromeright {
+    fill: greenyellow;
+}
+
+#chromeright:hover {
+    fill: yellow;
+}

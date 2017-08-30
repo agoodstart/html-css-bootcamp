@@ -1,0 +1,54 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#stepper {
+    width: 80%;
+    height: 300px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border: 2px solid deepskyblue;
+}
+
+#stepper-1, #stepper-3 {
+    width: 33.33%;
+    background-color: lightsteelblue;
+    height: 100%;
+}
+
+#stepper-2 {
+    width: 66.66%;
+    height: 100%;
+}
+
+#stepper-1, #stepper-2, #stepper-3 {
+    font-size: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#stepper-1 {
+    border-radius: 3rem 0 0 3rem;
+}
+
+#stepper-3 {
+    border-radius: 0 3rem 3rem 0;
+}
+
+#stepper-3:hover, #stepper-1:hover {
+    background-color: #011f4b;
+}

@@ -1,0 +1,10 @@
+body {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+
+    width: 400px;
+    border: 10px groove lightsteelblue;
+    margin: 0 auto;
+}
