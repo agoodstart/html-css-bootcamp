@@ -1,0 +1,26 @@
+html, body, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: deepskyblue;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 320px;
+    height: 320px;
+    background-color: transparent;
+    border: 1px solid rgba(0, 191, 255, .7);
+    border-radius: 100%;
+}
+
+svg {
+    fill: currentColor;
+    color: rgba(0, 191, 255, .7);
+}

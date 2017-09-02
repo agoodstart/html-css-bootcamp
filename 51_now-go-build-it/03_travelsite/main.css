@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgba(0, 0, 234, .8);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 3.8rem;
+    background: linear-gradient(to right, rgb(220, 247, 255), rgb(245, 245, 245) 50%);
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    width: 40%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    width: 60%;
+    height: 100%;
+    align-items: center;
+}
+
+ul {
+    align-items: center;
+    width: 100%;
+}
+
+nav, ul, li, a {
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+    font-size: 1rem;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 700;
+    height: 100%;
+    align-items: center;
+}
+
+h1 > a {
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    width: 21rem;
+    font-weight: 400;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+li > a {
+    width: 7rem;
+    overflow: hidden;
+}
+
+li > a:hover {
+    background: linear-gradient(rgba(0, 191, 255, .2), rgba(0, 191, 255, 0));
+}
+
+#atf {
+    width: 100%;
+    height: 100vh;
+    background-image: url("img/adventure.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 2rem;
+    background-attachment: fixed;
+    display: flex;
+    align-items: flex-end;
+}
+
+main {
+    /*height: 100rem;*/
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 15vh;
+    background-color: whitesmoke;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-family: 'Roboto Slab', sans-serif;
+    color: #3c3c3c;
+    font-weight: 100;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+button {
+    background-color: #3c3c3c;
+    border: none;
+    width: 9rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Roboto Slab', sans-serif;
+    margin-top: 1rem;
+}
+
+#photos {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+img {
+    margin: .5rem;
+    height: 200px;
+    width: 300px;
+}
+
+#story {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+article {
+    margin: .5rem;
+    width: 49%;
+}
+
+h3 {
+    font-family: 'Roboto Slab', sans-serif;
+    color: #3c3c3c;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+p span {
+    font-family: 'Roboto Slab', sans-serif;
+    color: #999999;
+    font-size: .9rem;
+    line-height: 140%;
+}
+
+#bottom {
+    width: 100%;
+    height: 10rem;
+    background-color: #3e3e3e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h4 {
+    color: lightgray;
+    font-weight: 100;
+    font-size: .8rem;
+}

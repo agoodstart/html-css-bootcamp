@@ -1,0 +1,199 @@
+html, body, section, h1, h2 {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h2, form, #atf, #button {
+    color: white;
+}
+
+#atf {
+    /*position: relative;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../000_img/school.jpg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form {
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: rgba(255, 255, 255, .7);
+}
+
+h2, form {
+    margin: 1rem;
+}
+
+#button {
+    height: 60%;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-family: serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: .2rem;
+}
+
+#button:hover {
+    background-color: rgba(255, 255, 255, .2);
+    cursor: pointer;
+}
+
+h1 {
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    font-size: 3.5rem;
+    text-align: center;
+    font-weight: 800;
+    line-height: 90%;
+    bottom: 4rem;
+}
+
+.bottom {
+    position: fixed;
+    bottom: 0;
+    height: 12rem;
+    background-color: rgba(255, 255, 255, .1);
+    width: 100vw;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h3 {
+    padding: 0;
+    margin: 0;
+    font-family: 'Indie Flower', serif;
+    text-align: center;
+    font-weight: 600;
+    line-height: 110%;
+    margin-top: 1rem;
+    color: rgba(255, 255, 255, .7);
+    font-size: 1.1rem;
+}
+
+li, ul, nav {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    background-color: #de3800;
+    font-size: .8rem;
+    width: 12rem;
+    height: 2.4rem;
+    border: none;
+    color: white;
+}
+
+.mainbutton {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    top: 0;
+}
+
+nav, ul {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+ul {
+    width: 100%;
+    margin-bottom: .2rem;
+}
+
+li {
+    list-style: none;
+    width: 4.6rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 20px;
+    z-index: 1;
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+}
+
+li a, .dropbtn {
+    text-decoration: none;
+    color: rgba(255, 255, 255, .5);
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+.dropdown:hover {
+    background-color: rgba(255, 255, 255, .2);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    cursor: none;
+}
+
+.bottom + nav:hover {
+    display: none;
+}
+
+div > a {
+    padding: 0;
+    margin: 0;
+    font-family: 'Indie Flower', serif;
+    text-align: center;
+    font-weight: 600;
+    line-height: 110%;
+    margin-top: 1rem;
+    color: rgba(255, 255, 255, .7);
+    font-size: 1.1rem
+}
+
+h1:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.dropdown:hover h3 {
+    display: none;
+}

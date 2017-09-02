@@ -1,0 +1,28 @@
+body, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div {
+    position: relative;
+    animation-name: text;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes text {
+    0% {
+        font-size: 5rem;
+    }
+    50% {
+        font-size: 15rem;
+    }
+    100% {
+        font-size: 5rem;
+    }
+}

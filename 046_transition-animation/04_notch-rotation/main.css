@@ -1,0 +1,28 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+svg {
+    position: relative;
+    fill: black;
+    width: 30rem;
+    height: 30rem;
+    animation-name: notch;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+}
+
+@keyframes notch {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

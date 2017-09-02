@@ -1,0 +1,47 @@
+body {
+    padding: 0;
+
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 10px;
+    transition: 2s;
+}
+
+.width:hover {
+    width: 300px;
+}
+
+.delay:hover {
+    width: 300px;
+    transition-delay: 1s;
+}
+
+.ease:hover {
+    transition-timing-function: ease;
+    width: 300px;
+}
+
+.ease-in:hover {
+    transition-timing-function: ease-in;
+    width: 300px;
+}
+
+.ease-out:hover {
+    transition-timing-function: ease-out;
+    width: 300px;
+}
+
+.step-start:hover {
+    transition-timing-function: step-start;
+    width: 300px;
+}
+
+.transform:hover {
+    height: 300px;
+    width: 300px;
+    transform: rotate(180deg);
+}
